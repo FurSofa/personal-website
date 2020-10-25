@@ -59,7 +59,7 @@ body {
     background-color: #191120b4;
     color: #ffffff;
     text-align: center;
-    height: 25vh;
+    height: 20vh;
     padding: 10px;
 }
 
@@ -69,11 +69,15 @@ body {
     padding: 20px;
     color: #000;
     text-align: center;
+    height: 20vh;
+    padding: 10px;
 }
 /* ============================================================= */
 
 #section-c{
     display: flex;
+    height: 20vh;
+    padding: 10px;
 }
 
 #section-c div{
@@ -100,4 +104,13 @@ body {
     width: 50%;
     align-items: center;
     text-align: center;
+}
+
+
+#footer{
+    display: flex;
+    height: 10vh;
+    padding: 10px;
+    background-color: #4D774E;
+    font-size: px;
 }
