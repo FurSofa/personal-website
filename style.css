@@ -55,7 +55,26 @@ body {
 
 #section-info{
     padding: 20px;
-    background-color: #694788b4;
+    background-color: #191120b4;
     color: #ffffff;
     text-align: center;
+    height: 100vh;
+}
+
+#section-about{
+    padding: 20px;
+    color: #000;
+    text-align: center;
+}
+
+#section-c{
+    display: flex;
+}
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background-color: #191120b4;
+    color: whitesmoke;
 }
