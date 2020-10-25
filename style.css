@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
 }
 #landing{
+    /* How can i make the background a variable? */
     background: url('images/seasons/fall.jpg');
     background-size: cover;
     background-position: center;
@@ -20,7 +21,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    height: 80vh;
+    height: 70vh;
 }
 
 #landing h1{
@@ -59,14 +60,9 @@ body {
     color: #ffffff;
     text-align: center;
     height: 25vh;
-    padding: 20px;
+    padding: 10px;
+}
 
-}
-#section-info div{
-    display: flex;
-    flex-direction: row;
-    padding: 20;
-}
 /* ============================================================= */
 
 #section-about{
@@ -90,13 +86,18 @@ body {
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 #section-c h2{
-    text-align: center;
     color:white;
     padding: 20px;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    width: 50%;
+    align-items: center;
+    text-align: center;
 }
 
-#section-c .box-1, #section-c .box-3{
+#section-c .box-1{
     background-color: #191120b4;
     color: whitesmoke;
+    width: 50%;
+    align-items: center;
+    text-align: center;
 }
