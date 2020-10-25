@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>testing background</title>
+</head>
+<body>
+<div id="banner-container" style="width:400px;height:300px;"></div>
+
+<script>
+var currentTime = new Date();
+var month = currentTime.getMonth() + 1;
+var total = month;
+
+// Summer
+if (total >= 6 && total <= 8)
+{
+    document.getElementById("banner-container").style.backgroundImage = "/images/winter.jpg";
+}
+// Autumn
+else if (total >= 9 && total <= 11)
+{
+    document.getElementById("banner-container").style.backgroundImage="/images/fall.jpg";
+}
+// Winter
+else if (total == 12 || total == 1 || total == 2)
+{
+    document.getElementById("banner-container").style.backgroundImage = "/images/winter.jpg";
+}
+// Spring
+else if (total >= 2 && total <= 6)
+{
+    document.getElementById("banner-container").style.backgroundImage = "/images/spring.jpg";
+}
+else
+{
+    document.getElementById("banner-container").style.backgroundImage = "/images/summer.jpg";
+}
+</script>
+
+</body> </html>
