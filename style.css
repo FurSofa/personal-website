@@ -1,1 +1,15 @@
-/*styles/*
+.headline {
+    text-align: center;
+}
+.box {
+  text-align: center;
+}
+
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
