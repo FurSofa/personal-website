@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
-}
+} */
 
 body {
     margin: 0;
@@ -57,12 +57,13 @@ body {
     background-color: #E2D3BE;
     color: #000000;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
+    list-style-position: inside;
     padding: 10px;
 }
 #section_info .list{
     display:list-item;
-    justify-content: left;
+    justify-content: center;
 }
 
 /* ============================================================= */
